@@ -164,7 +164,7 @@ header img {
 .text-box p {
     width: 70%;
     color: #37517e;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .text-box a {
@@ -179,7 +179,9 @@ header img {
 }
 
 .text-box a:hover {
+    color: #37517e;
     background-color: #eeeded;
+    box-shadow: 0px 1px 10px #00000023;
 }
 
 .wave {
