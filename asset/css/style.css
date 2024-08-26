@@ -32,6 +32,12 @@ h6 {
     font-family: "Raleway", sans-serif;
 }
 
+.padding {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+
 
 /* ----------------------- /
 #Title
@@ -135,8 +141,8 @@ header img {
     height: 100vh;
     display: flex;
     color: #fff;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: start;
     justify-content: center;
     flex-direction: column;
     background: linear-gradient(to left, #37517efc 0%, #ebebebce 100%), url(../images/home/bg.jpg) fixed no-repeat;
@@ -151,29 +157,29 @@ header img {
 }
 
 .text-box h1 {
+    color: #37517e;
     font-size: 2rem;
 }
 
 .text-box p {
     width: 70%;
-    margin: auto;
+    color: #37517e;
+    font-size: 1.1rem;
 }
 
 .text-box a {
-    color: #fff;
-    padding: 10px 25px;
+    color: #37517e;
+    padding: 10px 20px;
     border-radius: 25px;
     width: fit-content;
-    margin: auto;
     margin-top: 20px;
     transition-delay: 0.2s;
     transition: 0.4s ease-in;
-    background-color: #37517e;
+    background-color: #fff;
 }
 
 .text-box a:hover {
-    color: #37517e;
-    background-color: #fff;
+    background-color: #eeeded;
 }
 
 .wave {
