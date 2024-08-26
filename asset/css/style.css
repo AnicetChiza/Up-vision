@@ -145,7 +145,7 @@ header img {
     text-align: start;
     justify-content: center;
     flex-direction: column;
-    background: linear-gradient(to left, #37517efc 0%, #ebebebce 100%), url(../images/home/bg.jpg) fixed no-repeat;
+    background: linear-gradient(to left, #546b92fc 0%, #ebebebce 100%), url(../images/home/bg.jpg) fixed no-repeat;
     background-size: cover;
 }
 
