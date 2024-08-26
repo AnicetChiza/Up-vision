@@ -166,7 +166,14 @@ header img {
     width: fit-content;
     margin: auto;
     margin-top: 20px;
+    transition-delay: 0.2s;
+    transition: 0.4s ease-in;
     background-color: #37517e;
+}
+
+.text-box a:hover {
+    color: #37517e;
+    background-color: #fff;
 }
 
 .wave {
