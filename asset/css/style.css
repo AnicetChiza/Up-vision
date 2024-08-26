@@ -5,10 +5,12 @@
 * {
     margin: 0;
     padding: 0;
+    list-style-type: none;
     box-sizing: border-box;
 }
 
 a {
+    text-decoration: none;
     font-family: "Poppins", sans-serif;
 }
 
@@ -92,4 +94,31 @@ body {
     font-size: 1rem;
     font-weight: 300;
     font-family: "Poppins", sans-serif;
+}
+
+
+/* ----------------------- /
+#Header
+/ ----------------------- */
+
+header {
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    padding: 25px 80px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #37517e;
+}
+
+.list ul {
+    display: flex;
+    gap: 20px;
+    -webkit-column-gap: 20px;
+}
+
+.list ul a {
+    color: #fff;
 }
