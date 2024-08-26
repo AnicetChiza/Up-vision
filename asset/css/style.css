@@ -138,7 +138,7 @@ header img {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    background-image: linear-gradient(to left, #37517efc 0%, #ebebebce 100%), url(../images/home/bg.jpg) fixed no-repeat;
+    background: linear-gradient(to left, #37517efc 0%, #ebebebce 100%), url(../images/home/bg.jpg) fixed no-repeat;
     background-size: cover;
 }
 
