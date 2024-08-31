@@ -312,7 +312,11 @@ header img {
 / ----------------------- */
 
 .choice-container {
+    display: grid;
+    gap: 10px;
+    -webkit-column-gap: 10px;
     background-color: #f0efef55;
+    grid-template-columns: auto auto auto;
 }
 
 .choice-item .icon {
@@ -340,7 +344,7 @@ header img {
 
 .choice-item .icon svg path {
     transition: 0.5s;
-    fill: #c3c3c3;
+    fill: #e6e6e6;
 }
 
 .choice-item:hover svg path {
