@@ -328,7 +328,7 @@ header img {
 .choice-item .icon i {
     position: relative;
     font-size: 20px;
-    color: #0f455a;
+    color: #fff;
     transition: ease-in-out 0.5s;
 }
 
@@ -340,5 +340,5 @@ header img {
 
 .choice-item .icon svg path {
     transition: 0.5s;
-    fill: #d5d5d5;
+    fill: #0f455a;
 }
