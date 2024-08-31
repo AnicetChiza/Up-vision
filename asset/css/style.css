@@ -343,10 +343,10 @@ header img {
     fill: #f5f5f5;
 }
 
-.choice-item .icon:hover svg path {
+.choice-item:hover svg path {
     fill: #0f455a;
 }
 
-.choice-item .icon:hover i {
+.choice-item:hover i {
     color: #fff;
 }
