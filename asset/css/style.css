@@ -325,8 +325,19 @@ header img {
     position: relative;
 }
 
-.choice-item .icon {
+.choice-item .icon i {
     position: relative;
     font-size: 25px;
     transition: ease-in-out 0.5s;
+}
+
+.choice-item .icon svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.choice-item .icon svg path {
+    transition: 0.5s;
+    fill: #d5d5d5;
 }
