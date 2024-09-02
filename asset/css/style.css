@@ -16,6 +16,7 @@ a {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 50px;
 }
 
 
@@ -35,7 +36,7 @@ h6 {
 .padding {
     padding-left: 100px;
     padding-right: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 
