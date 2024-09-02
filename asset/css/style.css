@@ -312,58 +312,53 @@ header img {
 / ----------------------- */
 
 .choose-us {
-    /* background-color: #f0efef55; */
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
 }
 
-.choice-container {
+.choose-us-content {
+    display: grid;
     gap: 15px;
-    display: grid;
     -webkit-column-gap: 15px;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
 }
 
-.choice-item {
-    text-align: center;
+.choose-us-item {
     padding: 20px 25px;
-    display: grid;
-    gap: 10px;
-    background-color: #fff;
-    box-shadow: 0px 1px 10px #ebebebce;
-}
-
-.choice-item .icon {
-    margin: 0 auto;
-    width: 80px;
-    height: 80px;
+    border-radius: 5px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: ease-in-out 0.3s;
-    position: relative;
+    gap: 20px;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
+    -webkit-column-gap: 20px;
+    box-shadow: 0px 5px 15px #00000017;
 }
 
-.choice-item .icon i {
-    position: relative;
-    font-size: 20px;
-    color: #121212f0;
-    transition: ease-in-out 0.5s;
-}
-
-.choice-item .icon svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.choice-item .icon svg path {
-    transition: 0.5s;
-    fill: #e6e6e6;
-}
-
-.choice-item:hover svg path {
-    fill: #0f455a;
-}
-
-.choice-item:hover i {
+.choose-us-item:hover {
     color: #fff;
+    background-color: #0f455a;
+}
+
+.choose-us-item:hover i {
+    background: unset;
+    box-shadow: unset;
+}
+
+.choose-us-item div h4 {
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.choose-us-item div p {
+    font-size: 15px;
+}
+
+.choose-us-item i {
+    padding: 12px 15px;
+    height: fit-content;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 1px 10px #e3e3e3;
 }
